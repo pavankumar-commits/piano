@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+  background: #111;
+  color: white;
+  background: url(./SALAAR\ release\ date1702739527694.jpg);
+  background-size: cover;
+}
+
+h1 {
+  margin: 20px 0;
+  font-size: 2rem;
+  text-shadow: 2px 2px 5px black;
+}
+
+.set {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 80px auto;
+  max-width: 95vw;
+  height: 220px;
+  margin-top: 270px;
+}
+
+.white {
+  position: relative;
+  flex: 1;
+  max-width: 60px;
+  height: 200px;
+  background: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 0 1px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.5);
+  transition: transform 0.1s;
+  z-index: 1;
+  margin-right: -03px;
+}
+
+.black {
+  position: absolute;
+  top: 0;
+  width: 40px;
+  height: 120px;
+  background: black;
+  color: white;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.7);
+  transition: transform 0.1s;
+  z-index: 2;
+  margin-right: 10px;
+  margin-left: 370px;
+}
+
+.s { left: 110px; }
+.f { left: 170px; }
+.h { left: 230px; }
+.k { left: 290px; }
+.c { left: 350px; }
+.b { left: 410px; }
+
+.white:active,
+.black:active {
+  transform: translateY(4px);
+  box-shadow: 0 2px 3px rgba(0,0,0,0.5);
+}
+
+footer {
+  margin-top: 30px;
+  font-size: 14px;
+  text-shadow: 1px 1px 3px black;
+}
